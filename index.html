@@ -1,0 +1,77 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Post notice form</title>
+</head>
+<body>
+
+		<h1><a>Post notice form</a></h1>
+		<form method="get" action="https://www.pochta.ru/form">
+			<input name="type" class="item text medium" type="hidden" maxlength="255" value="F22"/>
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="item_1">Трек-номер </label>
+		<div>
+			<input name="PostId" class="item text medium" type="text" maxlength="255" value="RB945960872HK"/> 
+		</div> 
+		</li>		<li id="li_2" >
+		<label class="description" for="Recipient">ФИО или наименование организации </label>
+		<div>
+			<input name="Recipient" class="item text medium" type="text" maxlength="255" value="Печкин Игорь Иванович"/>
+		</div> 
+		</li>		<li id="li_3" >
+		<label class="description" for="RecipientAddress">Адрес (населенный пункт, улица, дом, квартира) </label>
+		<div>
+			<input id="item_3" name="RecipientAddress" class="item text medium" type="text" maxlength="255" value="г. Москва, ул. Ежовая д.777 кв. 0"/>
+		</div> 
+		</li>		<li id="li_4" >
+		<label class="description" for="RecipientIndex">Индекс </label>
+		<div>
+			<input id="item_4" name="RecipientIndex" class="item text medium" type="text" maxlength="255" value="101010"/> 
+		</div> 
+		</li>		<li id="li_11" >
+		<label class="description" for="RecipientDocumentType">Тип документа </label>
+		<div>
+		<select class="item select medium" id="item_11" name="RecipientDocumentType"> 
+			<option value="Паспорт РФ" selected>Паспорт РФ</option>
+			<option value="Паспорт СССР" >Паспорт СССР</option>
+		</select>
+		</div> 
+		</li>		<li id="li_6" >
+		<label class="description" for="RecipientDocumentSerie">Серия </label>
+		<div>
+			<input id="item_6" name="RecipientDocumentSerie" class="item text small" type="text" maxlength="255" value="46 08"/> 
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="RecipientDocumentNumber">Номер </label>
+		<div>
+			<input id="item_7" name="RecipientDocumentNumber" class="item text small" type="text" maxlength="255" value="123987"/> 
+		</div> 
+		</li>		<li id="li_8" >
+		<label class="description" for="RecipientDocumentIssueDate">Когда выдан </label>
+		<div>
+			<input id="item_8" name="RecipientDocumentIssueDate" class="item text medium" type="text" maxlength="255" value="01.10.2010"/> 
+		</div> 
+		</li>		<li id="li_9" >
+		<label class="description" for="RecipientDocumentIssuer">Кем выдан </label>
+		<div>
+			<input id="item_9" name="RecipientDocumentIssuer" class="item text medium" type="text" maxlength="255" value="Отделом городской стражи Буржуйского района города Усть-Амазонска"/> 
+		</div> 
+		</li>		<li id="li_10" >
+		<label class="description" for="RecipientRegistrationAddress">Адрес регистрации (не заполняется, если совпадает с адресом получателя) </label>
+		<div>
+			<input id="item_10" name="RecipientRegistrationAddress" class="item text medium" type="text" maxlength="255" value="г. Усть-амазонск, ул.Документальная д.2 кв.9"/> 
+		</div> 
+		</li>
+			
+					<li class="buttons">
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+		</form>	
+
+	</body>
+</html>
